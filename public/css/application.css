@@ -2,22 +2,31 @@
     background-color:black;
     color:white;
     text-align:center;
-    padding:5px;
-
+    padding:10px;
 }
 
-.header1 {
-    background-color:black;
+th { 
+	background-color:grey;
     color:white;
-    text-align:left;
-    padding:5px;
-    
+     border: 1px solid #ddd;
+     text-align: center;
 }
 
-.nav {
-    float:centre;
-    padding:5px; 
+table, td { 
+	margin-top: 5px;   
+    border: 1px solid #ddd;
+    text-align: left;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 15px;
+}
+
 .section {
     width:350px;
     float:left;
