@@ -1,0 +1,32 @@
+.header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+
+}
+
+.header1 {
+    background-color:black;
+    color:white;
+    text-align:left;
+    padding:5px;
+    
+}
+
+.nav {
+    float:centre;
+    padding:5px; 
+}
+.section {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+.footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}

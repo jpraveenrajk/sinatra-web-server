@@ -1,2 +1,46 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<div class="header">
+<h1>Short-it-Out!</h1>
+</div>
+
+<div class = "section">
+<br>
+<form action="/urls" method="post">
+	Enter URL:
+	<input type="text" name="long_url">
+	<input type="submit" value="Submit">
+
+</form>
+</div>
+
+<div class = "nav">
+<table style="width:100%">
+  <tr>
+    <th scope="col">Long Url</th>
+    <th scope="col">Short Url</th>
+    <th scope="col">Hits</th>
+  </tr>
+</table>
+
+</div>
+
+<div class = "nav">  
+  <% Url.all.each do |url| %>
+<table>
+  <tr>
+  <td> <%= url.long_url %> </td>
+  <td> <%= url.short_url %> </td>
+  <td> <%= url.counter %> </td>
+ </tr>
+
+<% end %>
+
+</table>
+</div>
+
+</div>
+
+
+
+
+
+
